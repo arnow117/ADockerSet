@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 MAINTAINER arnow117 "arnow117@gmail.com"
 ENV TOOLS_PATH /root/Tools
