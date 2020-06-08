@@ -1,4 +1,4 @@
-FROM arnow117/ubuntu_base:latest
+FROM arnow117/ubuntu_base:18.04
 
 MAINTAINER arnow117 "arnow117@gmail.com"
 
