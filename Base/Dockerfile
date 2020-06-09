@@ -4,7 +4,7 @@ MAINTAINER arnow117 "arnow117@gmail.com"
 
 
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
-RUN apt-get install -y git vim curl wget python python3 python-pip python3-pip tmux openssh-server sudo net-tools libunwind8 binutils-dev pkg-config make cmake libssl-dev iputils-ping iproute2
+RUN apt-get install -y git vim curl wget python python3 python-pip python3-pip tmux openssh-server sudo net-tools libunwind8 binutils-dev pkg-config make cmake libssl-dev iputils-ping iproute2 libunwind-dev
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
